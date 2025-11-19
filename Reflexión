@@ -1,0 +1,16 @@
+Reflexión
+¿Por qué usar un manejador de dependencias como Maven facilita la actualización y mantenimiento del proyecto?
+Porque Maven te evita hacer trabajo manual, reduce errores y simplifica las actualizaciones; además de que todo está en un solo archivo (pom.xml) limpio y claro.
+
+1.	¿Qué diferencia hay entre definir el perfil activo en application.properties y configurarlo desde IntelliJ IDEA?
+2.	¿Cómo podrías usar esta misma configuración al desplegar la aplicación en un servidor real (como AWS o un VPS)?
+3.	¿Qué ventajas tiene manejar las variables y puertos desde perfiles separados?
+
+1. Diferencia entre definir el perfil activo en application.properties y configurarlo desde IntelliJ IDEA
+En application.properties el perfil queda fijo dentro del proyecto y cuando se configurar el perfil desde IntelliJ IDEA solo es temporal.
+2. ¿Cómo usar esta misma configuración al desplegar en un servidor real (AWS, VPS, etc.)?
+Como en los servidores no usamos IntelliJ, el perfil se tiene que activar mediante las variables del entorno y los comandos; declarando el perfil que se vaya a utilizar (dev, test o prod) sin necesidad del IDE.
+3. Ventajas de manejar variables y puertos desde perfiles separados
+Permite entornos completamente aislados; diferentes configuraciones para diferentes necesidades (dev, test o prod); evita errores graves; facilita el despliegue y proporciona más seguridad.
+
+
